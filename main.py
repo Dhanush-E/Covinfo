@@ -18,6 +18,7 @@ def notify():
 toast = w.ToastNotifier()
 notify()
 #notification code ends here 
+#main code starts here
 def main():
 	while(True):
 		print("1.Global Count\n2.Active cases\n3.Confirmed cases\n4.Recovered cases")
@@ -48,5 +49,6 @@ def main():
 		else:
 			print("invalid option")
 			main()
+#main code ends here
 main()
 #end of the code
