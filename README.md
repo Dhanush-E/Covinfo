@@ -1,1 +1,1 @@
-# Covinfo
+Covinfo is a desktop application built in python which gives info about covid cases on different scenarios based on user requirements which uses covid module to fetch global covid cases details and covid-india module to fetch covid case details about different states in India and notification system is bulit using win10toast module in python.
