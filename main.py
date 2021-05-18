@@ -30,7 +30,7 @@ def main():
 	while(True):
 		print("1.Global Count\n2.Active cases\n3.Confirmed cases\n4.Recovered cases")
 		print("5.Deceased\n6.India count\n7.Get Covid update by country name")
-		print("8.Get covid update by state name(india)\n9.vaccin_data(india)\n10.Total no tested case in 24hours\n0.Exit")
+		print("8.Get covid update by state name(india)\n9.vaccination_data(india)\n10.Total no tested case in 24hours\n0.Exit")
 		choice = int(input("Enter number of your choice: "))
 		print("-----------------------------------")
 		if choice==1:
@@ -55,7 +55,7 @@ def main():
 			print(sdata)
 		elif choice==9:
 			raw = (vaccin_data.text.split())
-			print(raw[0]+raw[1]+' '+raw[2]+' '+raw[3])
+			print(raw[0]+" "+raw[1]+' Done'+raw[2]+' '+raw[3])
 		elif choice == 10:
 			print(tested.text)
 		elif choice==0:
